@@ -1,0 +1,56 @@
+# ── Audio I/O ──────────────────────────────────────────────────────────────────
+sounddevice==0.4.6
+numpy>=1.24.3
+
+# ── Voice Activity Detection ───────────────────────────────────────────────────
+webrtcvad-wheels>=2.0.10
+
+# ── Wake word detection (free, local, open-source) ───────────────────────────
+openwakeword==0.6.0
+
+# ── Speech-to-text (via Groq Whisper API) ────────────────────────────────────
+groq>=0.9.0
+
+# ── Text-to-speech (local, no API key needed) ─────────────────────────────────
+pyttsx3==2.90
+elevenlabs>=1.0.0
+pygame>=2.5.0
+
+# ── Web search (free, no API key) ─────────────────────────────────────────────
+ddgs>=9.14.4
+
+# ── Utilities ──────────────────────────────────────────────────────────────────
+python-dotenv==1.0.0
+pydantic>=2.6.0
+
+# ── Database (MongoDB) ────────────────────────────────────────────────────────
+pymongo>=4.6.0
+certifi>=2024.0.0
+
+# ── Auth ──────────────────────────────────────────────────────────────────────
+bcrypt>=4.1.0
+pyjwt>=2.8.0
+
+# ── Web server (for UI) ────────────────────────────────────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+websockets>=12.0
+
+# ── Phase 3: Browser automation ───────────────────────────────────────────────
+playwright>=1.44.0
+# After install, run: playwright install chromium
+
+# ── Phase 3: Email & Calendar (Google API) ────────────────────────────────────
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.2.0
+google-api-python-client>=2.100.0
+
+# ── Phase 4: RAG / PDF indexing ───────────────────────────────────────────────
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+pymupdf>=1.24.0          # PDF text extraction (fitz)
+rank-bm25>=0.2.2
+
+# ── Phase 6: Background scheduler ─────────────────────────────────────────────
+apscheduler>=3.10.0
