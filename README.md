@@ -1,4 +1,4 @@
-# 🎙️ Nova — Agentic Voice AI Assistant
+# 🎙️ Nova — Agentic AI Assistant
 
 <div align="center">
 
